@@ -1,6 +1,6 @@
-name: "vipm-BuildViPackage"
+name: "vipm-ExitVIPM"
 author: "NEVSTOP"
-description: "CICD Action for sync VIPM library"
+description: "CICD Action for exiting VIPM"
 branding:
   icon: "anchor"
   color: "green"
@@ -24,6 +24,6 @@ runs:
       with:
         LabVIEW_Version: ${{ inputs.LabVIEW_Version }}
         Architecture: ${{ inputs.Architecture }}
-        Operation: vipm_OpenVIPM
+        Operation: vipm_ExitVIPM
 
 

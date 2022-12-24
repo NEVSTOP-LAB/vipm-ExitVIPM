@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: OpenVIPM
+name: ExitVIPM
 
 # Controls when the workflow will run
 on:
@@ -30,8 +30,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: OpenVIPM
-        uses: NEVSTOP-LAB/vipm-OpenVIPM@main
+      - name: ExitVIPM
+        uses: NEVSTOP-LAB/vipm-ExitVIPM@main
         with:
           LabVIEW_Version: 2017
 
